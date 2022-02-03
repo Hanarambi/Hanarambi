@@ -68,6 +68,7 @@ elif float(minDep) <= 0:
 import os
 import sys 
 
+# TAKE A LOOK AT THIS PART!!!
 while (res := input("Do you want caculate agian? [1] or exit[2]?\n").lower()) not in {"1", "2"}:# totaly grabbed  this restart /exitcode off stack overflow dont take  off points:)
     pass
 if res == "1":
